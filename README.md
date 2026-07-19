@@ -1,13 +1,14 @@
 ![Banner](banner.svg)
+
 # 🔪 MM2 Pidrilni Script v7.0 
-### ⚡ Ультимативный и оптимизированный скрипт для Murder Mystery 2 (Roblox)
-**Разработчик:** by mrandrioff  
-**Платформы:** Mobile (Delta, Xeno) & PC
+### ⚡ Ultimate & Optimized Murder Mystery 2 Hub (Roblox)
+**Developer:** by mrandrioff  
+**Platforms:** Mobile (Delta, Xeno, etc.) & PC
 
 ---
 
-## 🚀 Быстрый запуск (Загрузчик)
-Скопируйте эту строку и вставьте в ваш мобильный или ПК инжектор:
+## 🚀 Quick Start (Loader)
+Copy the line below and paste it into your mobile or PC executor:
 
 ```lua
 loadstring(game:HttpGet("https://githubusercontent.com"))()
@@ -15,40 +16,40 @@ loadstring(game:HttpGet("https://githubusercontent.com"))()
 
 ---
 
-## 📋 Основные функции скрипта
+## 📋 Features Checklist
 
-### ⚙️ Базовые утилиты и Автоматизация
-* **Anti-AFK** — Полная защита от вылета из игры за бездействие через 20 минут.
-* **Tween Coin Farm** — Бесшумный плавный полет по монетам без моментальных ТП, защищающий от кика античитом.
-* **Instant Grab Gun & Return** — Безопасный моментальный подбор упавшего пистолета Шерифа с мгновенным возвращением на старое место.
-* **Auto Evade Murderer** — Автоматический телепорт в противоположный конец карты, если Убийца подходит к вам слишком близко.
-* **Server Hop** — Быстрый автоматический поиск и перезаход на другой активный сервер.
+### ⚙️ Main Utilities & Automation
+* **Anti-AFK** — Full bypass against 20-minute inactivity disconnections.
+* **Tween Coin Farm** — Smooth and silent coin/candy collection. No instant teleports to keep it perfectly safe from anti-cheat kicks.
+* **Instant Grab Gun & Return** — Automatically teleports to the dropped Sheriff's gun and instantly blinks back to your original safe spot.
+* **Auto Evade Murderer** — Automatically teleports you to the opposite side of the map if the Murderer gets too close with a knife.
+* **Server Hop** — Fast automatic matchmaking to hop onto another active server instantly.
 
-### 👁️ Визуальные функции (ESP)
-* **Murderer / Sheriff / Innocent ESP** — Моментальный сквозьстены-сканер ролей с подсветкой силуэтов (Красный — Убийца, Синий — Шериф, Зеленый — Мирный).
-* **Gun Drop ESP** — Яркий маркер на упавшем пистолете Шерифа.
-* **Coin/Candy ESP** — Подсветка монет и праздничной валюты сквозь любые текстуры.
+### 👁️ Visuals (ESP)
+* **Murderer / Sheriff / Innocent ESP** — Real-time wallhack scanning that highlights player roles with glowing silhouettes (Red = Murderer, Blue = Sheriff, Green = Innocent).
+* **Gun Drop ESP** — Bright visual marker highlighting the dropped Sheriff's gun on the ground.
+* **Coin/Candy ESP** — High-visibility tracking of coins and holiday currency through any walls or obstacles.
 
-### 🏃 Физика и Модификации персонажа
-* **Noclip** — Беспрепятственное прохождение сквозь стены и ловушки на карте.
-* **Fly** — Удобный режим полета (зажмите Пробел для набора высоты).
-* **Infinite Jump** — Бесконечные прыжки прямо в воздухе.
-* **God Mode** — Локальное бессмертие, защищающее от стандартных триггеров смерти.
-* ** WalkSpeed & JumpPower** — Циклическое переключение стадий скорости и силы прыжка (от х1 до ультра-режимов) прямо из интерфейса.
+### 🏃 Physics & Character Mods
+* **Noclip** — Pass through any walls, doors, or map boundaries effortlessly.
+* **Fly** — Highly responsive flight mode (hold Spacebar to ascend).
+* **Infinite Jump** — Allows endless jumps mid-air for map navigation.
+* **God Mode** — Client-side immortality, completely bypassing default death triggers.
+* **WalkSpeed & JumpPower Loops** — Cycle through progressive speed and jump multiplier stages (from x1 up to ultra modes) directly via UI clicks.
 
-### 🤪 Троллинг и Боевые фичи
-* **🎯 Выбор цели тапом на экране (Target Picker)** — Кликните по игроку прямо на экране смартфона, чтобы намертво закрепить его как цель для троллинга.
-* **Fling Selected Target** — Моментальный бесшумный сброс выбранного игрока (или Убийцы/Шерифа по отдельности) глубоко под карту в пустоту (Void).
-* **As Murderer: Kill Loop** — Автоматический эквип ножа из инвентаря с моментальным вырезанием всех выживших на карте за секунду.
-* **As Sheriff: Auto Shoot** — Silent Aim режим: пистолет сам наводится и делает точный выстрел в Убийцу, как только тот достает нож.
-* **Spin Bot** — Бешеное кручение хитбокса, которое сбивает прицел другим игрокам и откидывает (пушит) каждого, кто посмеет к вам прикоснуться.
-* **Chat Exposer** — Автоматическое раскрытие личности убийцы в чат сразу после старта раунда.
-* **Teleport Behind & Shoot Murderer** — Умная кнопка: моментально телепортирует вас за спину Убийцы, разворачивает лицом к нему и делает победный выстрел.
+### 🤪 Trolling & Combat Features
+* **🎯 Target Picker (Screen Tap Selection)** — Simply click on any player's character directly on your smartphone screen to lock them down as your trolling target.
+* **Fling Selected Target** — Instantly and silently launches the targeted player (or specifically the Murderer/Sheriff) deep into the Void map-boundary beneath the world.
+* **As Murderer: Kill Loop** — Automatically equips the knife from your inventory and teleports around, wiping out all survivors across the map in a split second.
+* **As Sheriff: Auto Shoot** — Perfect Silent Aim: the pistol automatically locks onto the Murderer and takes a lethal shot the moment they draw their knife.
+* **Spin Bot (Push & Push Back)** — Blazing-fast hitbox rotation that breaks other players' aim and applies a massive physics pushback to anyone touching you.
+* **Chat Exposer** — Automatically exposes the Murderer's identity in the global public chat immediately after roles are distributed.
+* **Teleport Behind & Shoot Murderer** — Tactical panic button: instantly brings you right behind the Murderer's back, turns your camera toward them, and fires a winning shot.
 
 ---
 
-## 💻 Особенности интерфейса
-* **Стиль Vertex & MacOS Controls** — Строгий темный дизайн с неоновой мятной обводкой и кнопками управления окном в стиле Mac.
-* **Кнопка Свернуть (–)** — Сворачивает меню в аккуратную тонкую полосочку с названием и версией, чтобы не закрывать кнопки инвентаря и магазина на мобильных телефонах.
-* **Кнопка Закрыть (✕)** — Прячет меню в маленький удобный кружок, который можно свободно перетаскивать по экрану.
-* **Система Кейбиндов (Keybinds)** — Возможность поставить любую физическую клавишу для включения/выключения функций (актуально для ПК-инжекторов).
+## 💻 Interface (UI) Highlights
+* **Vertex Style with macOS Controls** — Premium dark design with neon mint accent strokes and Apple-styled window top-bar controls.
+* **Minimize Button (–)** — Collapses the layout into a super thin strip showing only the project name and version, keeping your inventory, shop, and spectate game buttons completely clear on mobile screens.
+* **Close Button (✕)** — Minimizes the entire window layout into a small draggable bubble widget that you can re-position anywhere across your screen.
+* **Keybinds System** — Fully supports map-triggering keyboard keybind assignment to switch toggles on and off seamlessly (for PC execution environments).
