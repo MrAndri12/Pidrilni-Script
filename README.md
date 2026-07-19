@@ -14,6 +14,7 @@
 |                            by mrandrioff                          |
 |___________________________________________________________________|
 
+```
 
 > **DEVELOPER:** `mrandrioff`  
 > **STATUS:** `UNDETECTED`  
@@ -33,7 +34,7 @@
 Copy the line below and paste it into your mobile or PC executor:
 
 ```lua
-loadstring(game:HttpGet("https://githubusercontent.com"))()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/MrAndri12/dc52b81ca6d992b16d11849a0055fab7/raw/146c482fb4f3617f85ba5df26483a88c848932ee/script.lua"))()
 ```
 
 ---
