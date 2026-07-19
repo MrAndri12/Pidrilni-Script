@@ -1,33 +1,39 @@
 <svg xmlns="http://w3.org" viewBox="0 0 800 300" width="100%" height="100%">
-  <style>
-    .glow-line { stroke: #32e1b4; stroke-width: 1.5; filter: drop-shadow(0px 0px 8px rgba(50, 225, 180, 0.6)); }
-    .title { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 900; font-size: 64px; fill: #ffffff; }
-    .badge { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 700; font-size: 14px; fill: #32e1b4; letter-spacing: 1px; }
-  </style>
-  
-  <!-- Фон -->
+  <!-- Чистый темный фон -->
   <rect width="800" height="300" fill="#0b0d12"/>
+  
+  <!-- Декоративная рамка по краям -->
   <rect x="15" y="15" width="770" height="270" rx="10" fill="#11141a" stroke="#1c212c" stroke-width="2"/>
   
-  <!-- Неоновые углы Vertex -->
-  <path d="M 15 50 L 15 15 L 50 15" fill="none" class="glow-line"/>
-  <path d="M 750 15 L 785 15 L 750 50" fill="none" class="glow-line" transform="translate(35, -35) scale(-1, 1) rotate(0) "/>
-  <path d="M 15 250 L 15 285 L 50 285" fill="none" class="glow-line" transform="translate(0, 535) scale(1, -1)"/>
-  <path d="M 785 250 L 785 285 L 750 285" fill="none" class="glow-line"/>
+  <!-- Угловые неоновые линии (Мятный цвет) -->
+  <path d="M 15 50 L 15 15 L 50 15" fill="none" stroke="#32e1b4" stroke-width="3"/>
+  <path d="M 785 50 L 785 15 L 750 15" fill="none" stroke="#32e1b4" stroke-width="3"/>
+  <path d="M 15 250 L 15 285 L 50 285" fill="none" stroke="#32e1b4" stroke-width="3"/>
+  <path d="M 785 250 L 785 285 L 750 285" fill="none" stroke="#32e1b4" stroke-width="3"/>
 
-  <!-- Логотип "P" -->
-  <circle cx="120" cy="150" r="45" fill="#161b24" stroke="#32e1b4" stroke-width="3" style="filter: drop-shadow(0px 0px 10px rgba(50, 225, 180, 0.3));"/>
-  <text x="120" y="168" font-family="'Segoe UI', sans-serif" font-size="55" font-weight="900" fill="#32e1b4" text-anchor="middle">P</text>
+  <!-- Мак-кнопки управления слева -->
+  <circle cx="45" cy="45" r="6" fill="#ff5f57"/>
+  <circle cx="65" cy="45" r="6" fill="#ffbd2e"/>
+  <circle cx="85" cy="45" r="6" fill="#27c93f"/>
 
-  <!-- Текст -->
-  <text x="200" y="145" class="title" letter-spacing="-1">Pidrilni<tspan fill="#32e1b4">.</tspan></text>
-  <text x="202" y="185" font-family="'Segoe UI', sans-serif" font-weight="700" font-size="20" fill="#8fa0af">MM2 ULTIMATE LOADER</text>
-  <text x="202" y="215" font-family="'Segoe UI', sans-serif" font-weight="500" font-size="14" fill="#546473">Created by mrandrioff • v7.0</text>
+  <!-- Круглый логотип со светящимся контуром -->
+  <circle cx="150" cy="155" r="45" fill="#161b24" stroke="#32e1b4" stroke-width="3"/>
+  <text x="150" y="173" font-family="Arial, Helvetica, sans-serif" font-size="55" font-weight="900" fill="#32e1b4" text-anchor="middle">P</text>
+
+  <!-- Главное название со стандартными шрифтами -->
+  <text x="230" y="145" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="56" fill="#ffffff">Pidrilni<tspan fill="#32e1b4">.</tspan></text>
   
-  <!-- Плашки (Badges) -->
-  <rect x="202" y="235" width="100" height="26" rx="13" fill="rgba(50, 225, 180, 0.1)" stroke="#32e1b4" stroke-width="1"/>
-  <text x="252" y="252" class="badge" text-anchor="middle">KEYLESS</text>
+  <!-- Подзаголовок -->
+  <text x="232" y="185" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" fill="#8fa0af" letter-spacing="1">MM2 ULTIMATE HUB</text>
   
-  <rect x="312" y="235" width="130" height="26" rx="13" fill="rgba(255, 255, 255, 0.05)" stroke="#546473" stroke-width="1"/>
-  <text x="377" y="252" class="badge" fill="#fff" text-anchor="middle">UNDETECTED</text>
+  <!-- Версия и создатель -->
+  <text x="232" y="215" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="14" fill="#546473">Created by mrandrioff • v7.0</text>
+  
+  <!-- Плашка KEYLESS -->
+  <rect x="232" y="235" width="95" height="24" rx="12" fill="#182c25" stroke="#32e1b4" stroke-width="1"/>
+  <text x="279" y="252" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#32e1b4" text-anchor="middle" letter-spacing="0.5">KEYLESS</text>
+  
+  <!-- Плашка UNDETECTED -->
+  <rect x="337" y="235" width="115" height="24" rx="12" fill="#1b222b" stroke="#546473" stroke-width="1"/>
+  <text x="394" y="252" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">UNDETECTED</text>
 </svg>
