@@ -1,30 +1,16 @@
-<div align="center" style="background: linear-gradient(135deg, #0b0d12 0%, #11141a 100%); border: 2px solid #32e1b4; border-radius: 12px; padding: 35px 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; box-shadow: 0 10px 30px rgba(50, 225, 180, 0.15); max-width: 800px; margin: 20px auto; position: relative;">
-  
-  <!-- macOS Controls Imitation -->
-  <div style="text-align: left; margin-bottom: -10px; padding-left: 5px;">
-    <span style="display: inline-block; width: 10px; height: 10px; background-color: #ff5f57; border-radius: 50%; margin-right: 6px;"></span>
-    <span style="display: inline-block; width: 10px; height: 10px; background-color: #ffbd2e; border-radius: 50%; margin-right: 6px;"></span>
-    <span style="display: inline-block; width: 10px; height: 10px; background-color: #27c93f; border-radius: 50%;"></span>
-  </div>
+# 🔪 Pidrilni Script — MM2 Ultimate Hub
 
-  <!-- Big Logo Letter -->
-  <div style="display: inline-block; width: 70px; height: 70px; background: #161b24; border: 3px solid #32e1b4; border-radius: 50%; line-height: 70px; font-size: 45px; font-weight: 900; color: #32e1b4; margin-top: 15px; box-shadow: 0 0 15px rgba(50, 225, 180, 0.3);">P</div>
+<p align="center">
+  <img src="https://shields.io" alt="Version">
+  <img src="https://shields.io" alt="Keyless">
+  <img src="https://shields.io" alt="Undetected">
+</p>
 
-  <!-- Main Title -->
-  <h1 style="color: #ffffff; font-size: 42px; font-weight: 900; margin: 15px 0 5px 0; letter-spacing: -1px; border: none; padding: 0;">Pidrilni <span style="color: #32e1b4;">Script</span></h1>
-  
-  <!-- Subtitle -->
-  <p style="color: #8fa0af; font-size: 16px; font-weight: 700; margin: 0 0 15px 0; letter-spacing: 2px; text-transform: uppercase;">Murder Mystery 2  |  Ultimate Hub</p>
-  
-  <!-- Author and Badges -->
-  <p style="color: #546473; font-size: 13px; font-weight: 600; margin: 0 0 20px 0;">Created by mrandrioff • v7.0</p>
-  
-  <div style="margin-top: 15px;">
-    <span style="background: rgba(50, 225, 180, 0.1); border: 1px solid #32e1b4; color: #32e1b4; padding: 5px 15px; font-size: 11px; font-weight: 800; border-radius: 20px; letter-spacing: 0.5px; margin-right: 8px; text-transform: uppercase;">KEYLESS</span>
-    <span style="background: rgba(255, 255, 255, 0.05); border: 1px solid #546473; color: #ffffff; padding: 5px 15px; font-size: 11px; font-weight: 800; border-radius: 20px; letter-spacing: 0.5px; text-transform: uppercase;">UNDETECTED</span>
-  </div>
+> **Developed by:** `mrandrioff`  
+> **Supported Platforms:** Mobile (Delta, Xeno, etc.) & PC
 
-</div>
+---
+
 
 # 🔪 MM2 Pidrilni Script v7.0 
 ### ⚡ Ultimate & Optimized Murder Mystery 2 Hub (Roblox)
